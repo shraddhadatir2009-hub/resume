@@ -1,2 +1,115 @@
-# resume
-My Resume from Complete Web Development Course
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blood Donation Camp</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: red;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .form-box {
+            background: white;
+            padding: 15px;
+            width: 300px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        button {
+            background: red;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Blood Donation Camp</h1>
+    <p>Donate Blood, Save Lives ❤️</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Register</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>About the Camp</h2>
+    <p>
+        Our blood donation camp is organized to help people in need.
+        Your one donation can save multiple lives.
+    </p>
+</section>
+
+<section>
+    <h2>Donor Registration Form</h2>
+    
+    <div class="form-box">
+        <form>
+            <label>Name:</label><br>
+            <input type="text" required><br><br>
+
+            <label>Age:</label><br>
+            <input type="number" required><br><br>
+
+            <label>Blood Group:</label><br>
+            <select>
+                <option>A+</option>
+                <option>B+</option>
+                <option>O+</option>
+                <option>AB+</option>
+            </select><br><br>
+
+            <label>Contact:</label><br>
+            <input type="text" required><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>Email: bloodcamp@gmail.com</p>
+    <p>Phone: 9876543210</p>
+</section>
+
+<footer>
+    <p>© 2026 Blood Donation Camp</p>
+</footer>
+
+</body>
+</html>
